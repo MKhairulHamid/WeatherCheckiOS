@@ -101,11 +101,11 @@
 		03764828255C63BF00980FBB /* WeatherCheck */ = {
 			isa = PBXGroup;
 			children = (
+				0376485C255C652F00980FBB /* Model */,
+				0376485B255C651800980FBB /* View */,
+				0376485D255C653F00980FBB /* Controller */,
 				03764829255C63BF00980FBB /* AppDelegate.swift */,
 				0376482B255C63BF00980FBB /* SceneDelegate.swift */,
-				0376482D255C63BF00980FBB /* FirstViewController.swift */,
-				0376482F255C63BF00980FBB /* SecondViewController.swift */,
-				03764831255C63BF00980FBB /* Main.storyboard */,
 				03764834255C63C100980FBB /* Assets.xcassets */,
 				03764836255C63C100980FBB /* LaunchScreen.storyboard */,
 				03764839255C63C100980FBB /* Info.plist */,
@@ -129,6 +129,30 @@
 				0376484F255C63C100980FBB /* Info.plist */,
 			);
 			path = WeatherCheckUITests;
+			sourceTree = "<group>";
+		};
+		0376485B255C651800980FBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03764831255C63BF00980FBB /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0376485C255C652F00980FBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0376485D255C653F00980FBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0376482D255C63BF00980FBB /* FirstViewController.swift */,
+				0376482F255C63BF00980FBB /* SecondViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
